@@ -1,0 +1,7 @@
+version: '3'
+services:
+  nginx-ssh:
+    build: .
+    ports:
+      - "80:80"
+
